@@ -21,7 +21,7 @@ function balancedBracket(string $string):string {
     return empty($tempStack)?"Yes":"No";
 }
 
-function cleanInput(string $input):string {
+function cleanInput(string $string):string {
     $cleaned = preg_replace("/\s/","",$string);
     if (preg_match("/[^(){}[\]]/",$cleaned)) throw new \Exception("Invalid Input");
     return $cleaned;
@@ -80,7 +80,7 @@ function runTestCases() {
     $numPass = array_count_values($res)["Pass"];
     $numFail = (@array_count_values($res)["Fail"])?(array_count_values($res)["Fail"]):0;
     echo "-----Results------\n";
-    echo "total test cases: " . count($testCases) ." \n$numPass Passed\n$numFail Failed\n";
+    echo "total test cases: " . count($testCases) ." \n$numPass Passed\n$numFail Failed\n\n\n";
 }
 
 runTestCases();

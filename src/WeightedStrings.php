@@ -70,7 +70,7 @@ function runTestCases() {
     $numPass = array_count_values($res)["Pass"];
     $numFail = (@array_count_values($res)["Fail"])?(array_count_values($res)["Fail"]):0;
     echo "-----Results------\n";
-    echo "total test cases: " . count($testCases) ." \n$numPass Passed\n$numFail Failed\n";
+    echo "total test cases: " . count($testCases) ." \n$numPass Passed\n$numFail Failed\n\n\n\n";
 }
 
 runTestCases();
