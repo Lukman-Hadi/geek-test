@@ -11,7 +11,7 @@ If you want to run using docker you can run this files by running the `<workdir>
 
 ## Answers
 ### Weighted Strings
-![WeightedStrings](https://github.com/Lukman-Hadi/geek-test/blob/master/img/WeightedStrings.png?raw=true)
+![WeightedStrings](https://github.com/Lukman-Hadi/geek-test/blob/master/img/WeightedString.png?raw=true)
 
 ### Balanced Brackets
 ![BalancedBrackets](https://github.com/Lukman-Hadi/geek-test/blob/master/img/BalancedBrackets.png?raw=true)
